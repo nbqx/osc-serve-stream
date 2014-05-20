@@ -1,0 +1,22 @@
+{
+  "name": "osc-serve-stream",
+  "description": "osc message readable stream",
+  "version": "0.0.0",
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/osc-serve-stream.git"
+  },
+  "homepage": "https://github.com/nbqx/osc-serve-stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-osc": "^0.2.1"
+  },
+  "devDependencies": {
+    "tape": "^2.12.3"
+  }
+}
